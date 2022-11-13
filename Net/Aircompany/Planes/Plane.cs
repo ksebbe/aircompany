@@ -9,7 +9,7 @@ namespace Aircompany.Planes
         private int _maxFlightDistance;
         private int _maxLoadCapacity;
 
-        public Plane(string model, int maxSpeed, int maxFlightDistance, int maxLoadCapacity)
+        protected Plane(string model, int maxSpeed, int maxFlightDistance, int maxLoadCapacity)
         {
             _model = model;
             _maxSpeed = maxSpeed;

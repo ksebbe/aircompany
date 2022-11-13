@@ -8,7 +8,7 @@ namespace Aircompany
 {
     public class Airport
     {
-        private List<Plane> _planes;
+        private readonly List<Plane> _planes;
 
         public Airport(IEnumerable<Plane> planes)
         {

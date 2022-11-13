@@ -4,7 +4,7 @@ namespace Aircompany.Planes
 {
     public class PassengerPlane : Plane
     {
-        private int _passengersCapacity;
+        private readonly int _passengersCapacity;
 
         public PassengerPlane(string model, int maxSpeed, int maxFlightDistance, int maxLoadCapacity,
             int passengersCapacity)
